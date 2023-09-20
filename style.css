@@ -1,0 +1,49 @@
+html{
+    font-family: Arial;
+    padding: 0;
+    background-color: #333;
+}
+
+.nav {
+    min-height: 46px;
+    background-color: darkgray;
+    border: 1px solid black ;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.nav-list{
+    list-style: none;
+    padding: 0;
+    margin: auto 16px;
+}
+
+.nav-item{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 8px;
+    color: white;
+}
+
+.form-container{
+    max-width: 720px;
+    background-color: white;
+    margin: 36px auto 0 auto;
+    padding: 32px;
+}
+
+.form-row{
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.form-label{
+    min-width: 90px;
+}
+
+.form-input{
+    flex: 1;
+    padding: 10PX;
+}
